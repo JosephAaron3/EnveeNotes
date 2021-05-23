@@ -1,0 +1,39 @@
+.text-area:focused {
+    -fx-background-color: #ffff88;
+    -fx-control-inner-background: #ffff88;
+    -fx-background-insets: 0, 0, 0;
+    -fx-background-radius: 0, 0, 0;
+}
+
+.text-area  {
+    -fx-background-color: #ffff88;
+    -fx-control-inner-background: #ffff88;
+    -fx-background-insets: 0, 0, 0;
+    -fx-background-radius: 0, 0, 0;
+}
+
+.button{
+    -fx-base:#f8f7b6;
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+    -fx-border-radius: 10%;
+    -fx-background-radius: 10%;
+    -fx-border-style: none;
+    -fx-background-color: transparent;
+    -fx-border-insets: 0;
+    -fx-background-insets: 0;
+}
+.button:hover{
+    -fx-background-color: derive(-fx-base, 18%); /*linear-gradient(#fdffe5, #fdffcf)*/;
+    -fx-border-style: solid;
+    -fx-border-width: 0;
+    -fx-border-color: derive(-fx-base, -15%);
+    -fx-effect: innershadow( gaussian, derive(-fx-base, -17%), 2, 0.0, -1, -1);
+}
+.button:pressed, .button:pressed:hover{
+    -fx-background-color: derive(-fx-base, -2%);
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+    -fx-border-color: derive(-fx-base, -15%);
+    -fx-effect: innershadow( gaussian, derive(-fx-base, -20%), 3, 0.0, 1.5, 1.5);
+}

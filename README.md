@@ -1,2 +1,2 @@
 # EnveeNotes
-To-do list and enveenotes.notes application, similar to Windows Sticky Notes
+To-do list and notes application, similar to Windows Sticky Notes
